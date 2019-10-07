@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.newmultiplayer.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "E:\\Users\\Nur Amiera\\Documents\\GitHub\\Module1\\Testing GitHub\\actions.json",
+      "action_manifest_path": "E:\\Users\\Nur Amiera\\Documents\\GitHub\\Module1\\Photon Multiplayer\\actions.json",
       "strings": {
         "en_us": {
           "name": "Testing GitHub [Testing]"
