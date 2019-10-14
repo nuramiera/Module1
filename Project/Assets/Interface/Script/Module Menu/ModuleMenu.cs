@@ -59,7 +59,8 @@ public class ModuleMenu : MonoBehaviour
 
     public void GotoModule3()
     {
-        SceneManager.LoadScene("final");
+        SceneManager.LoadScene("Testing Scene");
+        
 
     }
 

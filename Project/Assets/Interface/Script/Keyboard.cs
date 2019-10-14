@@ -277,14 +277,18 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "A";
+            TextField.caretPosition = (TextField.text.Length) + 2;
+
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "A";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "A";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -293,14 +297,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "B";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "B";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "B";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -309,14 +316,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "C";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "C";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "C";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -325,14 +335,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "D";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "D";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "D";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -341,14 +354,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "E";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "E";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "E";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -357,14 +373,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "F";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "F";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "F";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -373,14 +392,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "G";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "G";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "G";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -389,14 +411,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "H";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "H";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "H";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -405,14 +430,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "I";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "I";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "I";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -421,14 +449,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "J";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "J";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "J";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -437,14 +468,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "K";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "K";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "K";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -453,14 +487,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "L";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "L";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "L";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -469,14 +506,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "M";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "M";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "M";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -485,14 +525,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "N";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "N";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "N";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -501,14 +544,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "O";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "O";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "O";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -517,14 +563,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "P";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "P";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "P";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -533,14 +582,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "Q";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "Q";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "Q";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -549,14 +601,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "R";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "R";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "R";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -565,14 +620,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "S";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "S";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "S";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -581,14 +639,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "T";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "T";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "T";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -597,14 +658,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "U";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "U";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "U";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -613,14 +677,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "V";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "V";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "V";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -629,14 +696,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "W";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "W";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "W";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -645,14 +715,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "X";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "X";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "X";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -661,14 +734,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "Y";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "Y";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "Y";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -677,14 +753,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "Z";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "Z";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "Z";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -693,14 +772,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + ".";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + ".";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + ".";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -709,14 +791,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + ",";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + ",";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + ",";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -724,15 +809,16 @@ public class Keyboard : MonoBehaviour
     {
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
-            if (TextField.text.Length > 0) TextField.text = TextField.text.Remove(TextField.text.Length - 1);
+            if (TextField.text.Length > 0) TextField.text = TextField.text.Remove(TextField.text.Length - 1, 1);
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
-            if (JoinRoom.text.Length > 0) JoinRoom.text = JoinRoom.text.Remove(JoinRoom.text.Length - 1);
+            if (JoinRoom.text.Length > 0) JoinRoom.text = JoinRoom.text.Remove(JoinRoom.text.Length - 1, 1);
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
-            if (PlayerName.text.Length > 0) PlayerName.text = PlayerName.text.Remove(PlayerName.text.Length - 1);
+            if (PlayerName.text.Length > 0) PlayerName.text = PlayerName.text.Remove(PlayerName.text.Length - 1, 1);
+
         }
     }
 
@@ -741,14 +827,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + " ";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + " ";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + " ";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -757,14 +846,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "1";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "1";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "1";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -773,14 +865,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "2";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "2";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "2";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 
@@ -789,14 +884,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "3";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "3";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "3";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
     public void Four()
@@ -804,14 +902,18 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "4";
+            TextField.caretPosition = (TextField.text.Length) + 2;
+
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "4";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "4";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
     public void Five()
@@ -819,14 +921,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "5";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "5";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "5";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
     public void Six()
@@ -834,14 +939,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "6";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "6";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "6";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
 
     }
@@ -850,14 +958,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "7";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "7";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "7";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
     public void Eight()
@@ -865,14 +976,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "8";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "8";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "8";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
     public void Nine()
@@ -880,14 +994,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "9";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "9";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "9";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
     public void Zero()
@@ -895,14 +1012,17 @@ public class Keyboard : MonoBehaviour
         if (Room == true && Join == false && PlayerNameCheck == false)
         {
             TextField.text = TextField.text + "0";
+            TextField.caretPosition = (TextField.text.Length) + 2;
         }
         else if (Join == true && Room == false && PlayerNameCheck == false)
         {
             JoinRoom.text = JoinRoom.text + "0";
+            JoinRoom.caretPosition = (JoinRoom.text.Length) + 2;
         }
         else if (PlayerNameCheck == true && Room == false && Join == false)
         {
             PlayerName.text = PlayerName.text + "0";
+            PlayerName.caretPosition = (PlayerName.text.Length) + 2;
         }
     }
 

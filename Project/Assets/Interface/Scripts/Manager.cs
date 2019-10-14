@@ -83,12 +83,13 @@ public class Manager : MonoBehaviourPunCallbacks
             UnityEngine.SceneManagement.SceneManager.LoadScene("Connectlobby");
             return;
         }
-            //Debug.LogFormat("We are Instantiating LocalPlayer from {0}", SceneManagerHelper.ActiveSceneName);
-            // we're in a room. spawn a character for the local player. it gets synced by using PhotonNetwork.Instantiate
-           
-            
-        
+        //Debug.LogFormat("We are Instantiating LocalPlayer from {0}", SceneManagerHelper.ActiveSceneName);
+        // we're in a room. spawn a character for the local player. it gets synced by using PhotonNetwork.Instantiate
+
+
+
         PhotonNetwork.Instantiate(this.playerPrefab.name, spawnPoint.position, Quaternion.identity, 0);
+        //PhotonNetwork.Instantiate("Player", spawnPoint.position, Quaternion.identity, 0);
       
 
         //else
